@@ -1,5 +1,6 @@
 build:
   docker:
-    worker: Dockerfile
+    web: Dockerfile
 run:
-  worker: bash comienzo.sh
+  web: bash comienzo.sh
+  
